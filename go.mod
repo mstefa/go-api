@@ -7,4 +7,6 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/uuid v1.3.0
 	github.com/huandu/go-sqlbuilder v1.13.0
+	github.com/stretchr/testify v1.4.0 // indirect
+	github.com/vektra/mockery/v2 v2.9.4 // indirect
 )

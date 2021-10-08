@@ -4,9 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	_ "github.com/go-sql-driver/mysql"
 	"github.com/mstefa/go-api/internal/platform/server"
-	"github.com/mstefa/go-api/internal/storage/mysql"
+	"github.com/mstefa/go-api/internal/platform/storage/mysql"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 const (
